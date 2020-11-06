@@ -1,0 +1,1863 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+    color: rgba(255,255,255,1.00);
+}
+/*header*/
+header {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(146,146,146,1.00);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.contenido{
+		height:100px;
+		width:30%;
+		float:left;
+		margin: 0px;
+		padding: 4em 0px 0px 0px; 
+		
+	}
+.contenido1{
+		height:80px;
+		width:50%;
+		float:left;
+		margin: 0px;
+		padding: 0em 10px 0px 180px; 
+	}
+.contenido12{
+		height:80px;
+		width:50%;
+		float:left;
+		margin: 0px;
+		padding: 0em 5px 0px 70px; 
+		
+	}
+/* Logo placeholder*/
+#logo {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 139px;
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+    background-color: rgba(190,190,190,1.00);
+}
+/* div for Links in header */
+#headerLinks {
+    float: left;
+    width: calc( 100% - 139px );
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255,255,255,1.00);
+}
+/* Links in header */
+#headerLinks a {
+    text-decoration: none;
+    color: rgba(146,146,146,1.00);
+    padding-left: 66px;
+    font-size: 14px;
+}
+/* Offer text banner*/
+#offer {
+    font-family: 'Montserrat', sans-serif;
+    clear: both;
+    background-color: rgba(246,246,246,1.00);
+    color: rgba(146,146,146,1.00);
+    padding-left: 115px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+/* Main content of the site */
+#content {
+    clear: both;
+    overflow: auto;
+    padding-top: 29px;
+}
+/* Sidebar */
+#content .sidebar {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(146,146,146,1.00);
+    float: left;
+    width: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    background-color: rgba(246,246,246,1.00);
+    padding-top: 36px;
+    height: 1000px;
+}
+/* main content of the site */
+#content .mainContent {
+    float: left;
+    width: 80%;
+    text-align: center;
+    padding-left: 4%;
+}
+/*menubar's properties for menus in sidebar */
+#content .sidebar #menubar {
+    text-align: left;
+    color: rgba(146,146,146,1.00);
+    position: relative;
+    left: 0%;
+}
+/* Search field in sidebar */
+#content .sidebar #search {
+    width: 100%;
+    border-radius: 0px;
+    height: 42px;
+    text-align: center;
+    color: rgba(208,207,207,1.00);
+    font-size: 14px;
+    ;
+    margin-bottom: 21px;
+}
+/* Whole page content */
+#mainWrapper {
+    width: 85%;
+    padding-left: 10%;
+}
+/*menu elements */
+.menu ul li {
+    list-style-type: none;
+    font-size: x-large;
+    position: relative;
+    left: -35px;
+    padding-top: 12px;
+}
+/* Product rows for catalog */
+#content .mainContent .productRow {
+    overflow: auto;
+    color: rgba(146,146,146,1.00);
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 25%;
+}
+/* Prices of a products in catalog */
+.productRow .productInfo .price {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 22px;
+    position: relative;
+    top: 0px;
+}
+/* Content holder for products in catalog*/
+.productRow .productInfo .productContent {
+    position: relative;
+    top: -20px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: black;
+    white-space: pre-wrap;
+}
+/* Buy button for products in catalog */
+.productRow .productInfo .buyButton {
+    position: relative;
+    top: -40px;
+    width: 84%;
+    background-color: #F5C61B;
+    height: 35px;
+    color: black;
+    border-style: none;
+    font-size: 11px;
+    margin-top: 8px;
+}
+.productRow .productInfo .buyButton:hover{
+    background-color: #E9A214;
+}
+/* footer */
+#mainWrapper footer {
+    clear: both;
+    overflow: auto;
+    background-color: #F9F9F9;
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1.8;
+    padding-top: 22px;
+    padding-left: 22px;
+    text-align: center;
+    padding-bottom: 22px;
+    padding-right: 22px;
+}
+/*Each footer content */
+#mainWrapper footer div {
+    width: 27%;
+    float: left;
+    padding-left: 4%;
+    padding-right: 2%;
+    color: rgba(255,255,255,1.00);
+    text-align: justify;
+}
+/* Links in footer */
+footer div a {
+    color: rgba(146,146,146,1.00);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+/* Product's images in catalog */
+.productInfo div img {
+    width: 100%;
+}
+/*Links in sidebar */
+.sidebar #menubar .menu ul li a {
+    color: rgba(146,146,146,1.00);
+    text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover {
+    color: rgba(107,97,97,1.00);
+    text-decoration: none;
+}
+/* Menu headings in sidebar */
+#menubar .menu h2 {
+    font-size: 14px;
+}
+/*Links under menus in sidebar */
+#menubar .menu ul li a {
+    font-size: 14px;
+}
+/* Menus in sidebar */
+.sidebar #menubar .menu {
+    margin-bottom: 29px;
+}
+/* Container for links in footer */
+footer .footerlinks {
+    margin-top: -15px;
+}
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+    /* search field in sidebar */
+    #content .sidebar #search {
+        display: none;
+    }
+    /* sidebar */
+    #content .sidebar {
+        float: none;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        padding-left: 12%;
+        padding-top: 0px;
+    }
+    /* horizontal separators in sidebar */
+    #content .sidebar hr {
+        display: none;
+    }
+    /*The sidebar and maincontent of page */
+    #content {
+        position: relative;
+        top: -22px;
+        width: 100%;
+        overflow: hidden;
+    }
+    /*menu headings in sidebar */
+    #menubar .menu h2 {
+        display: inline;
+        font-size: medium;
+        padding-right: 6%;
+    }
+    /* Unordered List of links */
+    #menubar .menu ul {
+        display: inline;
+    }
+    /*list elements */
+    #menubar .menu ul li {
+        display: inline;
+        font-size: medium;
+        padding-left: 0%;
+        padding-right: 3%;
+    }
+    /*The link to be hidden in tablet view */
+    .sidebar #menubar .menu ul .notimp {
+        display: none;
+    }
+    /* menus in sidebar */
+    .sidebar #menubar .menu {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 16px;
+    }
+    /*menubar in sidebar */
+    #content .sidebar #menubar {
+        position: relative;
+        left: -7%;
+        overflow: hidden;
+        width: 95%;
+        padding-top: 0px;
+    }
+    /* offer banners content */
+    #mainWrapper #offer p {
+        font-size: small;
+    }
+    /* main content region of page */
+    #mainWrapper #content .mainContent {
+        overflow: hidden;
+        width: 95%;
+        margin-top: 40px;
+    }
+    /* Prices of products in catalog view */
+    .productRow .productInfo .price {
+        font-size: 19px;
+    }
+    /* Content holders in catalog view */
+    .productRow .productInfo .productContent {
+        font-size: 16px;
+    }
+    /* Buy buttons in catalog view */
+    .productRow .productInfo .buyButton {
+        font-size: 15px;
+    }
+    /* Container for links in footer */
+    #mainWrapper footer .footerlinks {
+        float: none;
+        width: 100%;
+        position: relative;
+        top: 17px;
+        clear: both;
+        text-align: center;
+        left: 0%;
+        padding-bottom: 19px;
+    }
+    /* Container for each footer divisions */
+    #mainWrapper footer div {
+        width: 44%;
+        text-align: justify;
+        font-size: 15px;
+    }
+    /* Links in footer */
+    .footerlinks p a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: inline;
+        padding-right: 35px;
+    }
+    /* Footer region */
+    #mainWrapper footer {
+        padding-left: 16px;
+        overflow: hidden;
+    }
+    /* Links in header */
+    header #headerLinks a {
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+    /* Offer- Text banner */
+    #mainWrapper #offer {
+        padding-left: 22%;
+    }
+    /* Paragraphs in footer */
+    footer .footerlinks p {
+        display: inline;
+    }
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+    /*Container for links in header */
+    #mainWrapper header #headerLinks {
+        width: 100%;
+        text-align: center;
+        background-color: rgba(190,190,190,1.00);
+        padding-bottom: 21px;
+    }
+    /* Logo placeholder*/
+    #mainWrapper header #logo {
+        width: 100%;
+        text-align: center;
+    }
+    /* Links in header */
+    header #headerLinks a {
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 0px;
+    }
+    /*Offer - Text Banner */
+    #mainWrapper #offer {
+        padding-left: 0px;
+        text-align: center;
+    }
+    /* Menubar in sidebar */
+    #content .sidebar #menubar {
+        position: relative;
+        left: -8%;
+        text-align: center;
+    }
+    /*Menu headings in sidebar */
+    #menubar .menu h2 {
+        width: 100%;
+        display: block;
+    }
+    /* Each product in catalog view */
+    .mainContent .productRow .productInfo {
+        width: 100%;
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: relative;
+        left: -2%;
+    }
+    #mainWrapper footer div {
+        width: 100%;
+        margin-left: -16px;
+        text-align: justify;
+        padding-bottom: 16px;
+        overflow: auto;
+    }
+    /* Unordered list for menu elements */
+    .menu ul {
+        position: relative;
+        padding-left: 24%;
+    }
+    /* Container for links in footer */
+    #mainWrapper footer .footerlinks {
+        padding-left: 8%;
+    }
+    /* Main content which excludes the sidebar */
+    #mainwrapper #content .mainContent {
+        margin-top: -81px;
+        text-align: center;
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+
+/*POP UP-------------------------------*/
+
+.overLay {
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.overLay.active {
+    visibility: visible;
+}
+
+.popup {
+    background: #f8f8f8;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    transition: .5s ease all;
+    transform: scale(0.7);
+    opacity: 0;
+
+}
+
+.btn-submit {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: black;
+    background: #F5C61B;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.btn-submit:hover {
+    background: #E9A214;
+}
+
+
+
+.btn-submitCarrito {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: black;
+    background: #E9A214;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.btn-submitCarrito:hover {
+    background: #F5C61B;
+}
+
+.popup .btn-cerrar-popup {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    transition: .3s ease all;
+    color: #BBBBBB;
+}
+
+.popup .btn-cerrar-popup:hover {
+    color: #000;
+}
+
+.popup h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+.popup h4 {
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    opacity: 0;
+}
+
+
+.popup form .cont-buscar {
+
+}
+
+.popup form .cont-buscar input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #BBBBBB;
+}
+
+.popup form .btn-submit {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    background: #5E7DE3;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.popup form .btn-submit:hover {
+    background: rgba(94,125,227, .7);
+}
+
+.popup.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.popup.active h3 { 
+    animation: entradaTitulo .3s ease .5s forwards; 
+}
+.popup.active h4 { 
+    animation: entradaSubtitulo .3s ease .5s forwards; 
+}
+.popup.active .cont-buscar { 
+    animation: entradaInputs 1s linear 0s forwards; 
+}
+
+@keyframes entradaTitulo {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes entradaSubtitulo {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes entradaInputs {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Pop Up fin --------------------------*/
+
+.cantidad-num {
+    width: 40px;
+}
+
+.bannerRafase {
+    background-image: url("../../imgs/bannerBusquedas.jpg");
+    opacity: 0.7;
+}
+
+/* Carrito estilo------------------------------*/
+
+.bannerCarrito {
+    border-radius: 16px;
+    background-image: url("../../imgs/bannerCarrito2.jpg");
+    opacity: 0.9;
+    height: 150px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.productoCarrito {
+    overflow: auto; 
+    width: 100%;
+    max-height: 450px; 
+    min-height: 300px;
+}
+
+.infoProductoCarrito {
+    display: flex; 
+    width: 100%;
+    height: 130px;
+    padding: 2.5px;
+    border-radius: 16px;
+    border-style: double;
+    border-color: #E9A214;
+}
+
+.imgProductoCarrito {
+    width: 25%;
+    height: 125px;
+}
+
+.datosProductoCarrito {
+    width: 100%; 
+    height: 125px;
+    padding-top: 5px;
+}
+
+.datosProductoCarrito h2 {
+    padding-top: 2%;
+    font-family: "Homer Simpson UI";
+    font-size: 100%;
+}
+
+.datosProductoCarrito label {
+    font: small-caption;
+    font-size: 100%;
+}
+
+.cantidadProductosCarrito {
+    width: 20%; 
+    height: 125px;
+    font-family: "Homer Simpson UI";
+    font-size: 100%;
+}
+
+.cantidadProductosCarrito input {
+    width: 50%;
+}
+
+.botonesCantidadProductosCarrito {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.botonesCantidadProductosCarrito .b1 {
+    width: 33%;
+    background-color: #E9A214;
+    color: white;
+    border: 2px solid #ffffff; /* Green */
+}
+
+.botonesCantidadProductosCarrito .b2 {
+    width: 66%;
+    background-color: #E9A214;
+    color: white;
+    border: 2px solid #ffffff; /* Green */
+}
+
+.botonesCantidadProductosCarrito .b1:hover {
+    background-color: #F5C61B; /* Green */
+    color: black;
+}
+
+.botonesCantidadProductosCarrito .b2:hover {
+    background-color: #F5C61B; /* Green */
+    color: black;
+}
+
+.valorYpagoCarrito {
+    width: 100%; display: flex;
+}
+
+.valorYpagoCarrito .valorCarrito .price {
+    padding-top: 1%;
+    font-family: "Homer Simpson UI";
+    font-size: 100%;
+}
+
+.valorCarrito {
+    width: 90%; 
+    padding-left: 5%; 
+    padding-right: 5%; 
+    border-style: double;
+    border-color: #E9A214;
+}
+
+.pagarCarrito {
+    width: 30% padding: 5%;
+}
+
+/* pop up del carrito -----------------------*/
+
+.popupCarrito .overlayCarrito {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+}
+
+.popupCarrito .contentCarrito {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width: 100%;
+    transform:translate(-50%,-50%) scale(0);
+    background:#fff;
+    max-width:750px;
+    max-height:800px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 10px;
+}
+
+.popupCarrito .close-btnCarrito {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    transition: .3s ease all;
+    color: #BBBBBB;
+}
+
+.popupCarrito .close-btnCarrito:hover {
+    color: #000;
+}
+
+.popupCarrito.active .overlayCarrito {
+    display:block;
+}
+
+.popupCarrito.active .contentCarrito {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.configtable{
+    height: 550px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 5px outset red;
+    background-color: lightblue;    
+    text-align: center;*/
+}
+.configestadistica{
+    height: 600px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    display: block;
+    justify-content: center;
+    align-items: center;
+	padding: 4em 70px 0px 70px; 
+	 overflow:scroll;
+     
+    /*border: 5px outset red;
+    background-color: lightblue;    
+    text-align: center;*/
+}
+
+.config{
+    padding-top: 20px;
+    display: inline;
+    //justify-content: center;
+    //align-items: center;
+}
+.gestion{
+    padding-top: 50px;
+    font-family: Roboto;
+}
+
+.btn-settings{
+    font-size:18px;
+    font-family: Roboto;
+    border: none;  
+    padding: 36px 41px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #F5C61B;
+
+}
+.btn-settings:hover{
+    background-color: #E9A214;
+
+}
+.btn-settingse{
+    font-size:18px;
+    font-family: Roboto;
+    border: none;  
+    padding: 10px 18px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #F5C61B;
+
+}
+.btn-settingse:hover{
+    background-color: #E9A214;
+
+}
+.btn-settings1{
+    font-size:18px;
+    font-family: Roboto;
+    background-color: #F5C61B;
+    border: none;  
+    padding: 30px 69px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.btn-settings1:hover{
+    background-color: #E9A214;
+
+}
+
+.btn-settings2{
+    font-size:18px;
+    font-family: Roboto;
+    background-color: #F5C61B;
+    padding: 30px 59px;
+    text-decoration: none;
+    display: inline-block;
+    border: none; 
+}
+
+.btn-settings2:hover{
+    background-color: #E9A214;
+
+}
+
+
+td {
+    border: white 15px solid;
+
+}
+td {
+    border: white 15px solid;
+}
+
+
+/* ventanas emergentes 2 -----------------------------------------------------------------------------*/
+
+.popupVentana .overlayVentana {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+
+    /*display: flex;
+    
+    align-items: center;*/
+    //display: flex;
+
+}
+
+.popupVentana .contentVentana {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width: 100%;
+    transform:translate(-50%,-50%) scale(0);
+    background:#fff;
+    width:400px;
+    height:160px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 10px;
+
+}
+
+.popupVentana .close-btnVentana {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    transition: .3s ease all;
+    color: #BBBBBB;
+}
+
+.popupVentana .close-btnVentana:hover {
+    color: #000;
+}
+
+.popupVentana.active .overlayVentana {
+    display:block;
+}
+
+.popupVentana.active .contentVentana {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.popupVentana .contentVentana .contenedorError {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupVentana .contentVentana .imgError {
+    padding: 5px;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupVentana .contentVentana .mensajeError {
+    padding: 5px;
+    width: 250px;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cont_direccion {
+    overflow: auto;
+    padding: 10px;
+    max-height: 300px;
+}
+
+.direccion_sel {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    border-radius: 16px;
+    border-style: double;
+    border-color: #E9A214;
+}
+
+.direcc_img {
+    width: 30%;
+}
+
+.direcc_datos {
+    width: 60%;
+    padding: 15px;
+
+}
+
+.direcc_btns {
+    width: 10%;
+    height: 30%;
+}
+
+.direcc_btns button {
+    width: 100%;
+    width: 50%;
+    border-radius: 16px;
+    background-color: #E9A214;
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+.direcc_btns button:hover {
+    background-color: #F5C61B;
+}
+
+
+.cont_tarjeta {
+    overflow: auto;
+    padding: 10px;
+    max-height: 300px;
+}
+
+.tarjeta_sel {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    border-radius: 16px;
+    border-style: double;
+    border-color: #E9A214;
+}
+
+.tarjeta_img {
+    width: 30%;
+}
+
+.tarjeta_datos {
+    width: 60%;
+    padding: 15px;
+
+}
+
+.tarjeta_btns {
+    width: 10%;
+    height: 30%;
+}
+
+.tarjeta_btns button {
+    width: 100%;
+    width: 50%;
+    border-radius: 16px;
+    background-color: #E9A214;
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+.tarjeta_btns button:hover {
+    background-color: #F5C61B;
+}
+
+
+
+.btn-submit {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: black;
+    background: #F5C61B;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.btn-submit:hover {
+    background: #E9A214;
+}
+
+
+/* POP UP PROVEEDOR------------------------------------------------------------------------------------------------------------ */
+.overLayp {
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overLayp.active {
+  visibility: visible;
+}
+
+.popup-proveedor {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  transition: .5s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+
+}
+
+.popup-proveedor .btn-cerrar-popupp {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  transition: .3s ease all;
+  color: #BBBBBB;
+}
+
+.popup-proveedor .btn-cerrar-popupp:hover {
+  color: #000;
+}
+
+.popup-proveedor h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.popup-proveedor h4 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+
+.popup-proveedor form .cont-buscar {
+
+}
+
+.popup-proveedor form .cont-buscar input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
+.popup-proveedor form .btn-submit {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  color: #fff;
+  background: #5E7DE3;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.popup-proveedor form .btn-submit:hover {
+  background: rgba(94,125,227, .7);
+}
+
+.popup-proveedor.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-proveedor.active h3 { 
+  animation: entradaTitulo .3s ease .5s forwards; 
+}
+.popup-proveedor.active h4 { 
+  animation: entradaSubtitulo .3s ease .5s forwards; 
+}
+.popup-proveedor.active .cont-buscar { 
+  animation: entradaInputs 1s linear 0s forwards; 
+}
+
+/* POP UP TC------------------------------------------------------------------------------------------------------------ */
+.overLaytc {
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overLaytc.active {
+  visibility: visible;
+}
+
+.popup-tc {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  transition: .5s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+
+}
+
+.popup-tc .btn-cerrar-popuptc {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  transition: .3s ease all;
+  color: #BBBBBB;
+}
+
+.popup-tc .btn-cerrar-popuptc:hover {
+  color: #000;
+}
+
+.popup-tc h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.popup-tc h4 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+
+.popup-tc form .cont-buscar {
+
+}
+
+.popup-tc form .cont-buscar input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
+.popup-tc form .btn-submit {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  color: #fff;
+  background: #5E7DE3;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.popup-tc form .btn-submit:hover {
+  background: rgba(94,125,227, .7);
+}
+
+.popup-tc.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-tc.active h3 { 
+  animation: entradaTitulo .3s ease .5s forwards; 
+}
+.popup-tc.active h4 { 
+  animation: entradaSubtitulo .3s ease .5s forwards; 
+}
+.popup-tc.active .cont-buscar { 
+  animation: entradaInputs 1s linear 0s forwards; 
+}
+
+/* POP UP DIRECCION------------------------------------------------------------------------------------------------------------ */
+.overLaydir {
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overLaydir.active {
+  visibility: visible;
+}
+
+.popup-dir {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  transition: .5s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+
+}
+
+.popup-dir .btn-cerrar-popupdir {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  transition: .3s ease all;
+  color: #BBBBBB;
+}
+
+.popup-dir .btn-cerrar-popupdir:hover {
+  color: #000;
+}
+
+.popup-dir h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.popup-dir h4 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+
+.popup-dir form .cont-buscar {
+
+}
+
+.popup-dir form .cont-buscar input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
+.popup-dir form .btn-submit {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  color: #fff;
+  background: #5E7DE3;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.popup-dir form .btn-submit:hover {
+  background: rgba(94,125,227, .7);
+}
+
+.popup-dir.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-dir.active h3 { 
+  animation: entradaTitulo .3s ease .5s forwards; 
+}
+.popup-dir.active h4 { 
+  animation: entradaSubtitulo .3s ease .5s forwards; 
+}
+.popup-dir.active .cont-buscar { 
+  animation: entradaInputs 1s linear 0s forwards; 
+}
+
+/* POP UP tcreg------------------------------------------------------------------------------------------------------------ */
+.overLaytcreg {
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overLaytcreg.active {
+  visibility: visible;
+}
+
+.popup-tcreg {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  text-align: left;
+  width: 600px;
+  transition: .5s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+
+}
+
+.popup-tcreg .btn-cerrar-popuptcreg {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  transition: .3s ease all;
+  color: #BBBBBB;
+}
+
+.popup-tcreg .btn-cerrar-popuptcreg:hover {
+  color: #000;
+}
+
+.popup-tcreg h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.popup-tcreg h4 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+
+.popup-tcreg form .cont-buscar {
+
+}
+
+.popup-tcreg form .cont-buscar input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
+.popup-tcreg form .btn-submit {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  color: #fff;
+  background: #5E7DE3;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.popup-tcreg form .btn-submit:hover {
+  background: rgba(94,125,227, .7);
+}
+
+.popup-tcreg.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-tcreg.active h3 { 
+  animation: entradaTitulo .3s ease .5s forwards; 
+}
+.popup-tcreg.active h4 { 
+  animation: entradaSubtitulo .3s ease .5s forwards; 
+}
+.popup-tcreg.active .cont-buscar { 
+  animation: entradaInputs 1s linear 0s forwards; 
+}
+
+/* POP UP tcreg------------------------------------------------------------------------------------------------------------ */
+.overLaydireg {
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overLaydireg.active {
+  visibility: visible;
+}
+
+.popup-direg {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  text-align: left;
+  width: 600px;
+  transition: .5s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+
+}
+
+.popup-direg .btn-cerrar-popupdireg {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  transition: .3s ease all;
+  color: #BBBBBB;
+}
+
+.popup-direg .btn-cerrar-popupdireg:hover {
+  color: #000;
+}
+
+.popup-direg h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.popup-direg h4 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+
+.popup-direg form .cont-buscar {
+
+}
+
+.popup-direg form .cont-buscar input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
+.popup-direg form .btn-submit {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  color: #fff;
+  background: #5E7DE3;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.popup-direg form .btn-submit:hover {
+  background: rgba(94,125,227, .7);
+}
+
+.popup-direg.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-direg.active h3 { 
+  animation: entradaTitulo .3s ease .5s forwards; 
+}
+.popup-direg.active h4 { 
+  animation: entradaSubtitulo .3s ease .5s forwards; 
+}
+.popup-direg.active .cont-buscar { 
+  animation: entradaInputs 1s linear 0s forwards; 
+}
+
+/* overlay edit tarjetas ------------------------------------------------------------*/
+
+.overLayEditTarjeta {
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overLayEditTarjeta.active {
+  visibility: visible;
+}
+
+.popup-EditTarjeta {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  text-align: left;
+  width: 600px;
+  transition: .5s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+
+}
+
+.popup-EditTarjeta .btn-cerrar-popupEditTarjeta {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  transition: .3s ease all;
+  color: #BBBBBB;
+}
+
+.popup-EditTarjeta .btn-cerrar-popupEditTarjeta:hover {
+  color: #000;
+}
+
+.popup-EditTarjeta h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.popup-EditTarjeta h4 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+
+.popup-EditTarjeta form .cont-buscar {
+
+}
+
+.popup-EditTarjeta form .cont-buscar input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
+.popup-EditTarjeta form .btn-submit {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  color: #fff;
+  background: #5E7DE3;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.popup-EditTarjeta form .btn-submit:hover {
+  background: rgba(94,125,227, .7);
+}
+
+.popup-EditTarjeta.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-EditTarjeta.active h3 { 
+  animation: entradaTitulo .3s ease .5s forwards; 
+}
+.popup-EditTarjeta.active h4 { 
+  animation: entradaSubtitulo .3s ease .5s forwards; 
+}
+.popup-EditTarjeta.active .cont-buscar { 
+  animation: entradaInputs 1s linear 0s forwards; 
+}
+
+/* overlay edit direccion ------------------------------------------------------------*/
+
+.overLayEditdirec {
+  background: rgba(0,0,0,.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.overLayEditdirec.active {
+  visibility: visible;
+}
+
+.popup-Editdirec {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  text-align: left;
+  width: 600px;
+  transition: .5s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+
+}
+
+.popup-Editdirec .btn-cerrar-popupEditdirec {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  transition: .3s ease all;
+  color: #BBBBBB;
+}
+
+.popup-Editdirec .btn-cerrar-popupEditdirec:hover {
+  color: #000;
+}
+
+.popup-Editdirec h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.popup-Editdirec h4 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+
+.popup-Editdirec form .cont-buscar {
+
+}
+
+.popup-Editdirec form .cont-buscar input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #BBBBBB;
+}
+
+.popup-Editdirec form .btn-submit {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  color: #fff;
+  background: #5E7DE3;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.popup-Editdirec form .btn-submit:hover {
+  background: rgba(94,125,227, .7);
+}
+
+.popup-Editdirec.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-Editdirec.active h3 { 
+  animation: entradaTitulo .3s ease .5s forwards; 
+}
+.popup-Editdirec.active h4 { 
+  animation: entradaSubtitulo .3s ease .5s forwards; 
+}
+.popup-Editdirec.active .cont-buscar { 
+  animation: entradaInputs 1s linear 0s forwards; 
+}
+
+/* text caja ------------------------------------------------------- */
+
+.texto {
+    align-content: center;
+    width: 100%;
+    height: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

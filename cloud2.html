@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Nube de palabras</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="eCommerceAssets/styles/eCommerceStyle.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+        <script>var _adobewebfontsappname_ = "dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
+  <script src="js/d3.wordcloud.js"></script>
+  </head>
+<body>
+    <center>
+    <div id='wordcloud'></div>
+    </center>
+    <script>
+    var paramstr = window.location.search.substr(1);
+    var paramarr = paramstr.split ("&");
+    var params = {};
+
+    for ( var i = 0; i < paramarr.length; i++) {
+    var tmparr = paramarr[i].split("=");
+    params[tmparr[0]] = tmparr[1];
+    }
+    var datos = "word="+params['word'];
+    </script>
+    
+    <script>  
+    var json;
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST','conexion.php');
+    xhr.onload = function(){
+        if(xhr.status==200){
+            console.log(xhr.responseText);
+            json = JSON.parse(xhr.responseText);
+
+            d3.wordcloud()
+            .size([800, 280])
+            .fill(d3.scale.ordinal().range(["#59bec3", "#a4cc39", "#e4633a", "#b80d6b"]))
+            .selector('#wordcloud')
+            .words( json/*
+    [{"text":"Blockchain","size":"6"},{"text":"IA heavy","size":"6"},{"text":"Catastro multipro","size":"6"},{"text":"Estructuras del cuerpo","size":"7"},{"text":"Fotografia","size":"7"}]*/
+                    )
+            .onwordclick(function(d, i) {
+                    d.words([{text: 'asdasdas', size: 10}, {text: 'asdasdaas', size: 15}])
+                    d.update();
+            })
+            .start();
+        }else{
+            //return ("Existe un error de tipo: " + xhr.status);
+        }
+    } 
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+       xhr.setRequestHeader("Content-length", datos.length);
+       xhr.setRequestHeader("Connection", "close");
+    console.log(datos);
+        xhr.send(datos);
+    console.log("Prueba");
+    //console.log(xhr.onload);
+
+
+    </script>           
+
+</body>
+</html>
