@@ -11,6 +11,6 @@
 </script>
 </head>
 <?php 
-require_once("cloud.html") 
+require_once("index.html") 
 ?>
 </html>
