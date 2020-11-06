@@ -65,7 +65,7 @@
                 xhr.onload = function(){
                     if(xhr.status==200){
                         json = xhr.responseText;
-                        console.log("descripcion="+json['size']);     
+                        console.log("descripcion="+json['"size"']);     
                         document.getElementById("descripcion").innerHTML = json['size'];
                     }
                     
