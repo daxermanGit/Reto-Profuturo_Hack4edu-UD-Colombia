@@ -64,9 +64,9 @@
                 xhr.open('POST','conexion tarjeta.php');
                 xhr.onload = function(){
                     if(xhr.status==200){
-                        json = xhr.responseText;
-                        console.log("descripcion="+json['"size"']);     
-                        document.getElementById("descripcion").innerHTML = json['size'];
+                        json = JSON.parse(xhr.responseText);
+                        console.log("descripcion="+json[1]);     
+                        document.getElementById("descripcion").innerHTML = json[1];
                     }
                     
                    }
