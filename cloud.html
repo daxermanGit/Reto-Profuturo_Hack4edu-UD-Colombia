@@ -64,7 +64,7 @@
                 xhr.open('POST','conexion tarjeta.php');
                 xhr.onload = function(){
                     if(xhr.status==200){
-                        json = JSON.PARSE(xhr.responseText);
+                        json = xhr.responseText;
                         console.log("descripcion="+json["size"]);     
                         document.getElementById("descripcion").innerHTML = json["size"];
                     }
