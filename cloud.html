@@ -54,7 +54,7 @@
             <center>
                 <h1 id="titulo" class="card__title">Competencia</h1>
             </center>
-            <h6 id="descripcion" class="card__description">El objetivo de este curso es trabajar los conocimientos básicos para contribuir al desarrollo de la INNOVACIÓN como competencia fundamental que favorece el éxito personal y profesional de los alumnos. El objetivo de este curso es trabajar la competencia TIC mediante el conocimiento de aplicaciones online que facilitan la labor docente y la aplicación de las TIC en la escuela.</h6>
+            <h6 id="descripcion" class="card__description">En esta parte se muestran las competencias que puedes seleccionar</h6>
         </div>
         <script>
             function competencia(word){
@@ -66,7 +66,7 @@
                     if(xhr.status==200){
                         json = JSON.parse(xhr.responseText);
                         console.log("descripcion="+json[1]);     
-                        document.getElementById("descripcion").innerHTML = json[1];
+                        document.getElementById("descripcion").innerHTML = "Competencia de Matematicas: Aqui puedes encontrar cursos relacionadeos a la rama de matemaricas, esperamos que te sean de ayuda";
                     }
                     
                    }
